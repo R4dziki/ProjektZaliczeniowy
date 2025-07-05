@@ -38,4 +38,4 @@ Krótki opis projektu: Ten prosty program w **Pythonie** wyświetla „Hello, wo
 
 ## Licencja 
 
-    Projekt dostępny na licencji MIT. Szczegóły w pliku LICENSE.md.
+    Projekt dostępny na licencji MIT. Szczegóły w pliku [LICENSE.md](LICENSE.md).
