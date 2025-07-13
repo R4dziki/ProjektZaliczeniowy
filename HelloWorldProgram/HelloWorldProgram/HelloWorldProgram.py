@@ -1,6 +1,6 @@
 # -*- coding: cp1250 -*-
 # HelloWorldProgram.py
-
+print ("Oto mój program:")
 if __name__ == "__main__":
     while True:
         print("\n1) Hello, world!")
