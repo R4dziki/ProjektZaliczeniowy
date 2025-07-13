@@ -36,6 +36,11 @@ Krótki opis projektu: Ten prosty program w **Pythonie** wyświetla „Hello, wo
     Powinno wyświetlić się:
         Hello, world!
 
+## Nowa funkcjonalność
+- Program pyta o imię oraz miasto urodzenia, a następnie wyświetla:  
+  `Witaj, {imię} z {miasto}!`
+
+
 ## Licencja 
 
     This project is licensed under the [MIT License](LICENSE.md).
