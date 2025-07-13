@@ -1,24 +1,9 @@
 # -*- coding: cp1250 -*-
 # HelloWorldProgram.py
 
-print("Oto program:")
+# Wersja 2.0.0 – breaking change: zamiast menu prosty prompt dla imienia użytkownika
 
 if __name__ == "__main__":
-    while True:
-        print("\n1) Hello, world!")
-        print("2) Opis programu")
-        print("3) Autor programu")
-        print("0) Wyjście")
-        wybór = input("\nWybierz opcję: ").strip()
+    name = input("Jak masz na imię? ").strip()
+    print(f"Witaj, {name}! To jest nowa wersja 2.0.0 bez menu.")
 
-        if wybór == "1":
-            print("\nHello, world!\n")
-        elif wybór == "2":
-            print("\nProsty program konsolowy demonstrujący Git/GitHub workflow.\n")
-        elif wybór == "3":
-            print("\nAutor: Kamil Radziwon\n")
-        elif wybór == "0":
-            print("\nDo zobaczenia!")
-            break
-        else:
-            print("\nNieprawidłowa opcja, spróbuj ponownie.")
