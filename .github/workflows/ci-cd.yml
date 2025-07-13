@@ -49,6 +49,6 @@ jobs:
 
       - name: Deploy to Elastic Beanstalk
         run: |
-          eb init myapp --platform python-3.11 --region ${{ secrets.AWS_REGION }}
-          eb deploy production-env
+          eb init helloworld-app --platform python-3.11 --region ${{ secrets.AWS_REGION }}
+          eb deploy helloworld-env
 
