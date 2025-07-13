@@ -1,5 +1,10 @@
 # Changelog
 
+## [2.1.0] – 2025-07-13
+### Added
+- Prompt o miasto urodzenia w powitaniu  
+  (`feat: add city prompt to greeting`)
+
 ## [2.0.0] – 2025-07-13
 ### Breaking changes
 - Usunięcie menu i dodanie zapytania o imię  
