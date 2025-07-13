@@ -1,0 +1,7 @@
+# tests/test_greet.py
+
+from HelloWorldProgram.greeting import greet
+
+def test_greet_basic():
+    assert greet("Ala", "Warszawa") == "Witaj, Ala z Warszawa!"
+    assert greet("", "")          == "Witaj,  z !"

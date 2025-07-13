@@ -54,6 +54,10 @@ env/
 *.userosscache
 *.sln.docstates
 
+# Visual Studio cache and indexes
+.vs/
+HelloWorldProgram/.vs/
+
 # VS Code workspace settings
 .vscode/
 
