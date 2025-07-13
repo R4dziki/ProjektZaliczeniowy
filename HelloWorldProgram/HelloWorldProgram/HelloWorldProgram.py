@@ -1,1 +1,20 @@
-print ("Hello World, Witaj Œwiecie!")
+# -*- coding: cp1250 -*-
+# HelloWorldProgram.py
+
+if __name__ == "__main__":
+    while True:
+        print("\n1) Hello, world!")
+        print("2) Opis programu")
+        print("0) Wyjœcie")
+        wybór = input("Wybierz opcjê: ").strip()
+
+        if wybór == "1":
+            print("\nHello, world!\n")
+        elif wybór == "2":
+            print("\nProsty program konsolowy demonstruj¹cy Git/GitHub workflow.\n")
+        elif wybór == "0":
+            print("\nDo zobaczenia!")
+            break
+        else:
+            print("\nNieprawid³owa opcja, spróbuj ponownie.")
+
