@@ -22,12 +22,11 @@ jobs:
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          # jeżeli masz plik requirements.txt:
+          # jeśli masz plik requirements.txt:
           # pip install -r requirements.txt
 
       - name: Smoke test HelloWorld
         run: |
-          # uruchamia program z przykładowym inputem
           python HelloWorldProgram/HelloWorldProgram/HelloWorldProgram.py <<< $'Jan\nWarszawa\n'
 
   cd:
@@ -41,9 +40,9 @@ jobs:
       - name: Configure AWS credentials
         uses: aws-actions/configure-aws-credentials@v2
         with:
-          aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          aws-access-key-id:     ${{ secrets.AWS_ACCESS_KEY_ID }}
           aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
-          aws-region: ${{ secrets.AWS_REGION }}
+          aws-region:            ${{ secrets.AWS_REGION }}
 
       - name: Install EB CLI
         run: pip install awsebcli
@@ -52,3 +51,4 @@ jobs:
         run: |
           eb init myapp --platform python-3.11 --region ${{ secrets.AWS_REGION }}
           eb deploy production-env
+
