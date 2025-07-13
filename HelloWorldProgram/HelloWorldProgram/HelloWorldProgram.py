@@ -8,7 +8,7 @@ if __name__ == "__main__":
         print("\n1) Hello, world!")
         print("2) Opis programu")
         print("0) Wyjœcie")
-        wybór = input("Wybierz opcjê: ").strip()
+        wybór = input("\nWybierz opcjê: ").strip()
 
         if wybór == "1":
             print("\nHello, world!\n")
